@@ -33,6 +33,20 @@ If a player ever loses their headquarters, they are out of the game.
 (Any of their gang who are still loyal to them leave town.)  The game
 is over when only one player remains.
 
+Board
+-----
+
+The board consists of 20 properties arranged as shown below:
+
+        O O O
+    O O O T O O O
+    O O O U O O O
+        O O O
+
+The train station and the undertaker's are opposite each other in the
+center of town; all the other properties are laid out at random at the
+start of each game.
+
 Turns
 -----
 
@@ -196,8 +210,30 @@ territory card or decoy card face-down as usual and adds their posse
 to it.  Players turn their cards over simultaneously, and any
 resulting gunfights proceed as above.
 
-What's Missing
---------------
+What Needs to Be Done
+---------------------
+
+* "Reputation" has been tacked on as a way of adding an element of
+  strategy to gunfights, but it should actually be a core part of
+  the game.  After a fixed number of weeks (four?), there's an
+  election, and a player's chances of winning depend on their
+  reputation, their money (for bribes), and how many gunslingers
+  they have (for intimidation).
+
+* I've always hated games in which one or two people are knocked out
+  early and have to sit around and wait for everyone else to finish
+  things off before they can play again.  Instead, we should allow
+  players who have been knocked out to make a comeback, either by
+  buying their way back into the game after a certain number of turns,
+  or by taking over from another player when their reputation drops
+  (modeling a coup in that player's gang), or by leading a revolt
+  within another player's gang (possibly by bribery) to take some
+  of that player's gunslingers away from them.
+
+* Your reputation should have consequences on recruitment. A fraction
+  of your reputation points get added to your bid, for instance, or
+  reputation is a bid tie-breaker. Reputation can take a hit if you
+  attack on a Sunday.
 
 * Players should be able to bribe enemy gunslingers, either to get
   them to throw a fight or to change sides entirely.
@@ -218,7 +254,11 @@ What's Missing
   someone to try to take over a territory that's a long way away from
   anywhere they currently control.  This would discourage people from
   trying first-round all-out assaults on opponents' headquarters in
-  two-player games.
+  two-player games.  One possibility: if you are in a gunfight, add 1
+  regular dice on every shooting roll for every building you control
+  that is adjacent to the battleground. No diagonal adjacency. This
+  bonus only kicks in for buildings you've controlled before this
+  round---that is, no chaining.
 
 * People should be able to launch a sneak attack on the day of rest,
   but it should cost them somehow (e.g., make their gunslingers likely
