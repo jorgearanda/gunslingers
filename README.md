@@ -54,13 +54,15 @@ Each round represents a week.  Each turn is a day, with Monday being
 the first turn of each round.  Special events occur before regular
 play on each turn as follows:
 
--   Monday:    ---
--   Tuesday:   east-bound train
--   Wednesday: ---
--   Thursday:  ----
--   Friday:    west-bound train
--   Saturday:  rent collection
--   Sunday:    day of rest (i.e., no regular play)
+<table>
+  <tr><td>Monday</td><td>---</td></tr>
+  <tr><td>Tuesday</td><td>east-bound train</td></tr>
+  <tr><td>Wednesday</td><td>---</td></tr>
+  <tr><td>Thursday</td><td>----</td></tr>
+  <tr><td>Friday</td><td>west-bound train</td></tr>
+  <tr><td>Saturday</td><td>rent collection</td></tr>
+  <tr><td>Sunday</td><td>day of rest (i.e., no regular play)</td></tr>
+</table>
 
 The special events work as follows:
 
@@ -87,9 +89,11 @@ The special events work as follows:
 Once the number of gunslingers arriving on a particular train has been
 determined, roll 1C for each gunslinger to determine their skill:
 
-* 1-3: plug (ordinary)
-* 4-5: enforcer
-* 6: duellist
+<table>
+  <tr><td>1-3</td><td>plug (ordinary)</td></tr>
+  <tr><td>4-5</td><td>enforcer</td></tr>
+  <tr><td>6</td><td>duellist</td></tr>
+</table>
 
 Players then bid for the gunslingers' services.  They must bid for the
 entire group at once --- they cannot pick and choose individuals.  To
