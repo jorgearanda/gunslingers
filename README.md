@@ -69,38 +69,91 @@ and is broken up into the following rounds:
 * Second round of taking territory.
 * Rents are collected.
 
-The Train
----------
+Setup
+-----
 
-Roll 3C to determine how many gunslingers the train brings to town.
-Once the number has been determined,
-roll 1C for each gunslinger to determine their skill:
+Players select their character at random
+(variant: allow players to bid for characters?).
+
+All players place their headquarters marker in the property that
+corresponds to their character.
+They collect initial money
+and reputation tokens
+corresponding to their character card.
+Players also take one set of cards,
+each card corresponding to one property in the game,
+plus three decoy (blank) cards.
+
+Next, players prepare initial properties to bid on
+and initial batches of gunslingers.
+Reveal a number of property cards equal to the number of players.
+Then, prepare a number of gunslinger groups equal 
+to the number of players.
+For each batch of gunslingers,
+roll 6C to determine how many gunslingers are in the batch.
+Roll 1C for each gunslinger to determine their skill:
 
 * 1-3: plug (ordinary)
 * 4-5: enforcer
 * 6: duellist
 
-Players then bid for the gunslingers' services.
-They must bid for the entire group at once --- they cannot pick and choose individuals.
-To bid,
-players put coins or other markers in their hands,
-then reveal them simultaneously.
+Players then bid on these properties and gunslinger batches,
+using their initial money. 
+Randomly determine a starting player.
+The starting player selects one item to bid on
+(either a property card or a gunslinger batch).
+Every player then puts coins in their hands
+and reveal them simultaneously.
 Whoever has made the highest bid wins.
 
 Players are allowed to bid nothing.
 If every player bids nothing,
-the gunslingers get back on the train.
+the property card or gunslinger batch cannot be auctioned again.
 
 If two or more players are tied for the highest bid,
+whoever among them with the greatest number of reputation tokens wins the tie.
+If two or more players are still tied,
 everyone else drops out and they re-bid.
 They must either bid more than they bid on the previous round,
 or bid nothing at all.
 (Again,
 if all players bid nothing,
-the gunslingers get back on the train.)
-This continues until the gunslingers have been hired or have left town.
+the auction item is lost.)
+This continues until the auction has a winner or the auction item is lost.
 
-If a player controls the train station,
+If the player who selected the auction item won the auction,
+the next player clockwise selects the next auction item.
+Otherwise,
+the player who selected the last auction item selects another one.
+
+Every item must be put to auction once.
+
+When a player wins a property auction,
+they put one of their tokens in the property card on the board.
+They also take the reputation tokens that the card provides to its owner,
+if any.
+
+When a player wins a gunslinger batch,
+they put the corresponding gunslingers in their headquarters.
+
+Once all items have been auctioned,
+play starts with the first Train phase.
+
+The Train
+---------
+
+Roll 3C to determine how many gunslingers the train brings to town.
+Once the number has been determined,
+roll 1C for each gunslinger to determine their skill
+(see the skill table on the Setup section)
+
+Players then bid for the gunslingers' services.
+They must bid for the entire group at once --- they cannot pick and choose individuals.
+To bid,
+they follow the same process used in the setup auction bids.
+
+However,
+if a player controls the train station,
 he or she waits until everyone else has revealed their first-round bid,
 and then makes his or her bid.
 That player bids normally in any subsequent rounds.
@@ -118,12 +171,7 @@ face-down in front of them,
 and then place one or more of their gunslingers on the card.
 Any gunslingers who aren't placed on cards become the player's posse for that turn.
 
-Each of territory is identified with a symbol from a regular deck of cards,
-e.g.,
-the blacksmith's shop is 2-Spades.
-Cards that don't match territories can be used as decoys,
-i.e.,
-a player can put a face card down and put gunslingers on it to fool opponents.
+A player can also put a decoy card down and put gunslingers on it to fool opponents.
 
 Whoever controls the newspaper office
 can wait until other players have set up their moves,
@@ -147,6 +195,15 @@ When someone takes control of a territory,
 they remove any control marker(s) currently on it,
 then add a single control marker of their own.
 
+If they removed another player's control marker(s),
+that player returns the number of reputation tokens corresponding to the
+territory to the bank,
+and the new controller collects the same number of tokens.
+
+If the loser does not have enough reputation tokens to return,
+then she returns all of her reputation tokens.
+The winner still takes the full amount of reputation tokens from the bank.
+
 Rent Collection
 ---------------
 
@@ -166,7 +223,8 @@ This can be a fixed or variable amount.
 
 In order to keep track of which territories players have controlled for an entire week,
 they put one control marker on a territory when they first take it over,
-and add a second marker to the territory at the end of the turn.
+and add a second marker to the territory at the end of the turn
+(after the Rent Collection phase).
 They can only collect rents for territories with two markers.
 
 Gunfights
@@ -188,7 +246,10 @@ All players reveal their markers simultaneously:
 
 * If both players back down, each one loses two points of reputation.
 
-Each time a player loses reputation,
+Each time a player loses reputation in this way,
+they check whether they have enough reputation tokens to "hold"
+all their properties.
+If they do not,
 they must relinquish control of one territory chosen randomly
 (by shuffling territory cards and choosing one)
 *or* immediately lose one of their strongest gunslingers
